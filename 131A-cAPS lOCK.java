@@ -15,6 +15,7 @@ public class soso {
         }
 
         if (c) {
+            
             for (int j = 0; j < s.length(); j++) {
                 char u = s.charAt(j);
                 System.out.print(Character.isLowerCase(u) ? Character.toUpperCase(u) : Character.toLowerCase(u));
